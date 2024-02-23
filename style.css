@@ -69,7 +69,7 @@ body {
 /* border left content: */
 .left_content::before {
   content: "";
-  background-color: aqua;
+  background-color: #afafb6;
   width: 2px;
   height: 70%;
   right: -15px;
