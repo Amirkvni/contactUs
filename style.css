@@ -76,4 +76,47 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  padding-top: 10px;
+}
+.right_content {
+  padding-left: 75px;
+}
+.right_content h4 {
+  font-size: 23px;
+  color: #3e2093;
+  font-weight: 600;
+}
+.input_box {
+  width: 100%;
+  height: 55px;
+  margin: 12px 0;
+}
+.input_box input,
+.input_box textarea {
+  border: none;
+  background-color: #f0f1f0;
+  width: 100%;
+  height: 100%;
+  padding: 0 15px;
+  border-radius: 6px;
+  font-size: 16px;
+  resize: none;
+  font-family: "Poppins";
+}
+.right_content .textarea_box {
+  min-height: 110px;
+}
+.btn_form {
+  border: none;
+  background-color: #3e2093;
+  color: #fff;
+  border-radius: 6px;
+  padding: 11px 16px;
+  font-size: 18px;
+  margin-top: 12px;
+  cursor: pointer;
+  transition: all 0.3 ease-in;
+}
+.btn_form:hover {
+  background-color: #5029bc;
 }
